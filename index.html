@@ -26,20 +26,20 @@
         }
 
         div.secret-button{
-            background: #121212;
+            background-color:  transparent;
             border-radius: 4px;
             width: fit-content;
             bottom: 0;
-            position: absolute;
+            position: fixed;
             right: 0;
             
         }
 
         button.secret-button{
             margin-left: auto;
-            background-color: #121212;
+            background-color: transparent;
             border: 0;
-            color: #121212;
+            color: transparent;
         }
 
         button.secret-button:hover{
@@ -160,7 +160,7 @@
 </head>
 <body>
 
-<img id="catHám" src="pictures/cat.png" alt="cat" style="display: none; height: 100%; border-radius: 8px;" >
+<img id="catHám" src="pictures/cat.png" alt="cat" style="display: none; width: 100%; border-radius: 8px;" >
 
     <div class="secret-button">
          <button class="secret-button" onclick="secretButton()">
